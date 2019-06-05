@@ -1,0 +1,52 @@
+
+body {
+    background-image: url("images/daimond_eyes.png"); 
+}
+
+h1 {
+    text-align: center; 
+    font-size: 36px; 
+    line-height: 50px; 
+}
+
+#random-number {
+    text-align: center; 
+}
+
+#instructions {
+    text-align: center; 
+    font-size: 18px; 
+    line-height: 25px; 
+}
+
+#crystals {
+    margin-left: 30px; 
+    margin-right: 30px; 
+    padding: 20px; 
+}
+
+#red {
+    height: 225px; 
+    width: 225px; 
+}
+
+#green {
+    height: 225px; 
+    width: 225px; 
+}
+
+#blue {
+    height: 225px; 
+    width: 225px; 
+}
+
+#purple {
+    height: 225px; 
+    width: 225px; 
+}
+
+#random-number, #score, #user-wins, #user-losses {
+text-align: center; 
+font-size: 18px;  
+line-height: 25px; 
+}

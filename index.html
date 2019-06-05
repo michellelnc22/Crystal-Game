@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assests/style.css">
+</head>
+
+<body>
+
+    <h1>Crystal Collector!</h1>
+
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+
+        <p>Each one of the four crystals has a specific value assigned to it. Click on it and it will add a random value
+            to your total score. The value is unknown until you click on it.</p>
+
+        <p>You win if your score matches the random number. If your score goes over the number you lose.</p>
+
+        <p>You get a new number each time you play the game and the value of the crystals changes each time.</p>
+
+    </div>
+
+
+
+    <div id="crystals">
+
+        <img src="assests/images/717KwjyocDL._SX425_.jpg" alt="red crystal" id="red">
+        <img src="assests/images/71F9cdt58IL._SX425_.jpg" alt="blue crystal" id="blue">
+        <img src="assests/images/magical_crystals_purple3_large.jpg" alt="purple crystal" id="purple">
+        <img src="assests/images/TK_656041-500x500.jpg" alt="green crystal" id="green">
+
+    </div>
+    <div id="scores">
+        <div id="random-number">
+            <p>Number:</p>
+        </div>
+        <div id="score">
+            <p>Your Score:</p>
+        </div>
+        <div id="user-wins">
+            <p>Wins:</p>
+        </div>
+        <div id="user-losses">
+            <p>Losses:</p>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="assests/game.js"></script>
+</body>
+
+</html>
